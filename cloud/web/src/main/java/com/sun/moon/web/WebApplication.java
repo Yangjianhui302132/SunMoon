@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients()
 public class WebApplication {
 
     public static void main(String[] args) {
